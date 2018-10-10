@@ -19,3 +19,7 @@ function divSelector(){
   return divs;
 }
 
+function firstListItem(){
+  var first = $('ul:first-child');
+  return first;
+}
